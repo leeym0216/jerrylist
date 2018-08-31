@@ -1,0 +1,18 @@
+<body>
+	<p>Hello</p>
+</body>
+<script>
+
+function isTimePassed(minuteThreshold){
+	var temp = new Date();
+	if( temp.getMinutes() < minuteThreshold){
+		console.log("time not due: " + Date(), " due time: " + minuteThreshold);
+	}
+	else{
+		clearInterval(timer);
+	}
+}
+
+var timer = setInterval( isTimePassed, 1000, [53]);
+
+</script>
