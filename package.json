@@ -1,5 +1,5 @@
 {
-  "name": "jerrylist",
+  "name": "ui5",
   "version": "0.3.0",
   "description": "A demo to host your UI5 application in Heroku",
   "engines": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/i042416/jerrylist"
+    "url": "https://github.com/leeym0216/jerrylist"
   },
   "keywords": [
     "node",
