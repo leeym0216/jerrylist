@@ -8,7 +8,7 @@ app.use('/module', express.static(path.join(__dirname, 'module')));
 app.get('/', function(req, res){
 	console.log("method in get/: " + req.method);
     var qs = require('querystring');
-   res.send("Hello World");
+   res.send("Hello World!");
 });
 
 app.post("/", function(req, res){
